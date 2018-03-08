@@ -127,8 +127,12 @@ body {
   padding: 15px;
 }
 
-nav, h1, h2, p {
+nav {
   font-family: 'Cormorant Garamond', serif;
+}
+
+h1, h2, p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2 {
