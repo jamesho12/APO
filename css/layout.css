@@ -60,7 +60,7 @@
   .auto-clear .col-m-6:nth-child(odd){clear:left;}
 }
 
-@media all and (max-width: 991px) and (min-width: 0px) {
+@media all and (max-width: 991px) and (min-width: 768px) {
   body{
     font-size: 12px;
   }
@@ -97,6 +97,10 @@
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .logo-right {
@@ -170,7 +174,7 @@ p {
 
 @media all and (min-width:1200px) {
   .container { padding: 15px 20%; }
-  p { font-size: 1.2em; }
+  p { font-size: 1em; }
 }
 
 .temp-content {
