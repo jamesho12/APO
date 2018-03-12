@@ -86,6 +86,7 @@ p {
 @media all and (min-width: 992px) and (max-width:1199px) {
   .group-photo { max-height: 300px; }
   .caption { height: 300px; }
+  .beta-alpha { font-size: 0.6em; }
 }
 
 @media all and (min-width: 1200px) {
