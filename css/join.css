@@ -20,7 +20,7 @@ h1, h2 {
 }
 
 h1, h2, h3, p, li, .chapter-name, .footer-text {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -64,27 +64,23 @@ body {
 .item-container {
   border: 1px solid gray;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h2 {
   margin: -16px -15px 15px -15px;
   padding: 15px;
   background-color: #243E90;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .footer {
   background: #243E90;
   height: 50px;
   position: relative;
-  box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0px -6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .footer-text {

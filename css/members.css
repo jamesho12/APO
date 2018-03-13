@@ -6,8 +6,8 @@
   display: block;
   margin: 0 auto;
   width: 90%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .caption {
@@ -20,8 +20,8 @@
   background: #5573D6;
   padding: 10px;
   color: white;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .label {
@@ -48,11 +48,18 @@ p {
   font-size: 0.8em;
   text-align: center;
 }
+@media all and (max-width: 991px) {
+  .container hr {
+    margin: 10px;
+  }
+
+  .container hr:first-of-type {
+    margin: 10px;
+  }
+}
 
 @media screen and (max-width:768px) {
-  p {
-
-  }
+  
 }
 
 @media all and (min-width: 992px) {
@@ -66,7 +73,7 @@ p {
     max-height: 400px;
     width: auto;
     border-top-right-radius: 0px;
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 5px;
   }
 
   .caption {
@@ -75,7 +82,7 @@ p {
     max-width: 400px;
     padding: 1em;
     border-bottom-left-radius: 0px;
-    border-top-right-radius: 10px;
+    border-top-right-radius: 5px;
   }
 }
 

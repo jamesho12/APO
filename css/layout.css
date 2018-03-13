@@ -4,7 +4,7 @@
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 10px;
     width: 100%;
 }
 
@@ -122,20 +122,12 @@ body {
   padding: 0;
 }
 
-.nav-padding {
+section:first-of-type {
   position: relative;
   padding-top: 95px;
 }
 
-.container {
-  padding: 15px;
-}
-
-nav {
-  font-family: 'Cormorant Garamond', serif;
-}
-
-h1, h2, p {
+nav, h1, h2, p {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -154,7 +146,7 @@ h2 {
 
 p {
   margin: 0;
-  font-size: 1.4em;
+  font-size: 1em;
 }
 
 .highlight {
@@ -164,17 +156,16 @@ p {
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
-  .container { padding: 15px 10%; }
+  p { font-size: 1.4em; }
 }
 
 @media all and (min-width:992px) and (max-width:1199px) {
-  .container { padding: 15px 15%; }
-  p { font-size: 1.3em; }
+  .container { padding: 0 15%; }
+  p { font-size: 1.1em; }
 }
 
 @media all and (min-width:1200px) {
-  .container { padding: 15px 20%; }
-  p { font-size: 1em; }
+  .container { padding: 0 20%; }
 }
 
 .temp-content {

@@ -27,7 +27,7 @@ nav {
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
-  nav { padding: 0 10%; }
+
 }
 
 .logo {
@@ -99,7 +99,6 @@ nav a, .dropdown-content a {
   line-height: 30px;
   text-transform: uppercase;
   text-decoration: none;
-  text-shadow: 1px 1px 0 rgba(255,255,255,.25);
   font-size: 1.3em;
   color: #fff;
   z-index: 100;
@@ -133,7 +132,7 @@ nav a, .dropdown-content a {
   display: block;
 }
 
-section {
+section:last-of-type {
   padding-bottom: 25px;
 }
 
@@ -241,8 +240,14 @@ footer a {
   }
 }
 
-@media all and (min-width:768px) and (max-width:1199px) {
+@media all and (min-width:768px) and (max-width:991px) {
   nav a, .dropdown-content a {
     font-size: 1.2em;
+  }
+}
+
+@media all and (min-width:992px) and (max-width:1199px) {
+  nav a, .dropdown-content a {
+    font-size: 1em;
   }
 }
