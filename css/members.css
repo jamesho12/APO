@@ -48,18 +48,49 @@ p {
   font-size: 0.8em;
   text-align: center;
 }
-@media all and (max-width: 991px) {
-  .container hr {
-    margin: 10px;
-  }
 
-  .container hr:first-of-type {
-    margin: 10px;
-  }
+.exec hr {
+  width: 100%
+}
+
+.exec p {
+  margin-bottom: 0;
+  font-size: 0.75em;
+  text-align: left;
+}
+
+.exec-label {
+  text-decoration: underline;
+}
+
+
+.container hr, .alt-class-container hr {
+  margin: 10px;
+}
+
+.container hr:first-of-type {
+  margin: 10px;
+}
+
+.alt-class-container .exec {
+  border-radius: 5px;
+}
+
+.name, .title {
+  text-align: center;
+  margin: 0;
+}
+
+.thumbnail {
+  border-radius: 5px;
+}
+
+.container {
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width:768px) {
-  
+
 }
 
 @media all and (min-width: 992px) {
@@ -78,27 +109,44 @@ p {
 
   .caption {
     margin: 0;
-    height: 400px;
     max-width: 400px;
     padding: 1em;
     border-bottom-left-radius: 0px;
     border-top-right-radius: 5px;
   }
+
+  .alt-class-container .alt-class-container {
+    display: none;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width:991px) {
-  p { font-size: 1.2em; }
+  p, .exec p { font-size: 1.2em; }
 }
 
 @media all and (min-width: 992px) and (max-width:1199px) {
   .group-photo { max-height: 300px; }
   .caption { height: 300px; }
   .beta-alpha { font-size: 0.6em; }
+
+  .alt-class-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 850px;
+  }
 }
 
 @media all and (min-width: 1200px) {
-  .group-photo { max-height: 450px; }
+  .group-photo { height: 450px; max-height: 450px; }
   .caption { height: 450px; }
+
+  .alt-class-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 1075px;
+  }
 }
 
 section:first-of-type, .nav-padding {
