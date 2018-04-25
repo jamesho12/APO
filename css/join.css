@@ -24,8 +24,9 @@ h1, h2, h3, p, li, .chapter-name, .footer-text {
 }
 
 body {
+  position: relative;
   margin: 0px;
-  background-color: #dedede;
+  min-height: 100vh;
 }
 
 .header {
@@ -77,10 +78,13 @@ h2 {
   color: white;
 }
 
+footer {
+  position: absolute;
+}
+
 .footer {
   background: #243E90;
   height: 50px;
-  position: relative;
 }
 
 .footer-text {
@@ -140,6 +144,15 @@ p {
   margin-top: 0px;
 }
 
-hr {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.rush {
+  text-align: center;
+}
+
+.flyer-description {
+  padding: 15px;
+  margin: 0 auto 30px;
+}
+
+@media all and (max-width: 600px) {
+  br { display: none; }
 }
